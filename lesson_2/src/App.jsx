@@ -1,5 +1,5 @@
-import img from './assets/img/03.jpg'
-import './App.css'
+import img from './assets/img/03.jpg';
+import './App.css';
 import React from 'react';
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
 
       <h1>hello </h1>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, vitae? Ab esse architecto ratione hic reiciendis, ducimus minus iste corrupti itaque eos quibusdam at, suscipit earum accusantium sit modi ad!</p>
-      <img src={img} alt="error" />
+      <img src={img} alt="error" className='img1' />
 
 
       <form className='form'>
